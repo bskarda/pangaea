@@ -1,5 +1,9 @@
 # Change Log
 
+## [3.1.0] (2019-05-08)
+- Added optional "transformers" on `EnvironmentIdentifierFilter` which allow last-minute
+modification of the environment currently set, before it is retrievable from `EnvironmentUtil`
+
 ## [3.0.3] (2019-02-20)
 - Add @Prematching to EnvironmentModifierFilter to fix "java.lang.IllegalStateException: Method could be called only in pre-matching request filter."
 
