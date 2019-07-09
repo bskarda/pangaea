@@ -1,5 +1,7 @@
 # Pangaea
 
+[![Javadocs](https://www.javadoc.io/badge/com.cvent/pangaea.svg)](https://www.javadoc.io/doc/com.cvent/pangaea)
+
 pangaea is a common library for all dropwizard projects that need to deal with multiple environments.
 
 
@@ -30,7 +32,7 @@ mvn clean deploy
 
 mvn --batch-mode clean release:prepare release:perform
 
-#Pangaea package
+# Pangaea package
 
 this package is used for helping developers maintain multiple environments with a somewhat standard methology.
 
